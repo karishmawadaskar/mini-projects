@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+.receipt-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 600px;
+    
+}
+
+header, main, footer {
+    margin-bottom: 20px;
+}
+
+.logo{
+    height: 100px;
+    width: 250px;
+    margin: 0 25%;
+}
+
+header p, footer p {
+    font-size: 14px;
+    color: #555;
+    margin: 0 15%;
+}
+.receipt-details{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+main .receipt-details h2 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #333;
+    
+}
+.Description{
+    background-color: #f9f9f9; 
+}
+ .receipt-details p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+ .fee-details table {
+    width: 100%;
+    border-collapse: collapse;
+   
+}
+
+ .fee-details th, main .fee-details td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 16px;
+}
+
+ .fee-details .total td {
+    font-weight: bold;
+    background-color: #f9f9f9;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: #333;
+    text-decoration: none;
+}
