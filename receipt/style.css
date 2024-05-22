@@ -91,6 +91,7 @@ footer a {
     color: #333;
     text-decoration: none;
 }
+/* Mobile Devices */
 @media screen and  (max-width: 599px){
     .receipt-container{
         width: 400px; 
@@ -124,6 +125,7 @@ footer a {
         margin: 0 12%;
     } 
 }
+/* Tablet Devices */
 @media screen and (min-width: 680px) and (max-width: 899px) {
     .receipt-container{
         width: 600px;
@@ -141,7 +143,7 @@ footer a {
         margin: 0 20%;
     } 
 }
-
+/* Desktop Devices */
 @media screen and (min-width:900px) and (max-width: 1099px){
     .receipt-container {    
         padding: 10px;
